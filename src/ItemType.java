@@ -5,10 +5,12 @@ public enum ItemType {
   VISUAL_MOBILE("VM");
 
   private final String code;
-  ItemType (String code){
+
+  ItemType(String code) {
     this.code = code;
   }
-  public String getCode(){
+
+  public String getCode() {
     return code;
   }
 }
