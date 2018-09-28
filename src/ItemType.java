@@ -1,3 +1,11 @@
+//Create an enum called ItemType that will
+//store the following information
+//Type          Code
+//Audio          AU
+//Visual         VI
+//AudioMobile    AM
+//VisualMobile   VM
+
 public enum ItemType {
   AUDIO("AU"),
   VISUAL("VI"),
@@ -14,3 +22,4 @@ public enum ItemType {
     return code;
   }
 }
+
