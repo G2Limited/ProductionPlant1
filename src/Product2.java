@@ -20,6 +20,7 @@ public class Product2 {
 
   public String setName(String na){
     name = na;
+    return name;
   }
 
   public String getName() {
