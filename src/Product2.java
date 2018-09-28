@@ -2,6 +2,7 @@ import java.util.Date;
 
 public class Product2 {
 
+  String manufacturer = "OraclProduction";
   int serialNumber;
   Date manufacturedOn;
   String name;
@@ -18,7 +19,7 @@ public class Product2 {
     serialNumber = productionNumber;
   }
 
-  public String setName(String na){
+  public String setName(String na) {
     name = na;
     return name;
   }
@@ -28,10 +29,11 @@ public class Product2 {
   }
 
   public String toString() {
-    return "Manufacturer   : " + manufacturer + "\n"
-        + "Serial Number    : " + serialNumber + "\n" +
-        " Date    : " + manufacturedOn + "\n" +
-        " "
+    return "Manufacturer  : " + manufacturer + "\n" +
+        "Serial Number : " + serialNumber + "\n" +
+        "Date          : " + manufacturedOn + "\n" +
+        "Name          : " + name + "\n";
   }
 }
+
 
