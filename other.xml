@@ -1,0 +1,9 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:C:/FGCU/FGCU Fall 2018/OOP/styleguide-gh-pages/intellij-java-google-style.xml" />
+  </component>
+  <component name="JavaFxSettings">
+    <option name="pathToSceneBuilder" value="$USER_HOME$/IdeaProjects/Login/Login.iml" />
+    <option name="myPathToSceneBuilder" value="$USER_HOME$/IdeaProjects/Login/Login.iml" />
+  </component>
+</application>
