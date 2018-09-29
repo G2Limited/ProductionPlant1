@@ -1,9 +1,15 @@
+/*Garrett Graber
+09/29/2018
+This file creates an interface of Item which will include a constant for the
+manufacturer, set methods for ProductionNumber and Name, and get methods
+for Name, Manufacture Date, and Serial Number*/
+
 import java.util.Date;
 
 public interface Item {
 
   //A constant called manufacturer that would be set to “OracleProduction”.
-  String manufacturer = "OraclProduction";
+  String manufacturer = "";
 
   //A method setProductionNumber that would have one integer parameter
   public void setProductionNumber(int productionNumber);
