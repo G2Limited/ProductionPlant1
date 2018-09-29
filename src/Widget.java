@@ -1,7 +1,11 @@
+/*Garrett Graber
+09/29/2018
+This file creates a class Widget that extends Product2 */
+
 public class Widget extends Product2 {
 
-
   public Widget() {
+    //Will assign "Product Name" to name in Product2 superclass
     super("Product Name");
   }
 }
