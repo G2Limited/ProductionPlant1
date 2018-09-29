@@ -18,7 +18,7 @@ public abstract class Product implements Item {
   Date manufacturedOn;
   String name;
 
-  //Add an integer class variable called currentProductionNumber. This will store the next number to be
-  //assigned to serialNumber.
+  //Add an integer class variable called currentProductionNumber. This will store the next number
+  //to be assigned to serialNumber.
   static int currentProductNumber;
 }
