@@ -49,9 +49,12 @@ public class Product2 {
   Name : Product Name*/
 
   public String toString() {
-    return "Manufacturer  : " + manufacturer + "\n" +
-        "Serial Number : " + serialNumber + "\n" +
-        "Date          : " + manufacturedOn + "\n" +
+    return "Manufacturer  : " + manufacturer + "\n"
+        +
+        "Serial Number : " + serialNumber + "\n"
+        +
+        "Date          : " + manufacturedOn + "\n"
+        +
         "Name          : " + name + "\n";
   }
 }
