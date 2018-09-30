@@ -11,11 +11,12 @@ public class Product2 {
   Date manufacturedOn;
   String name;
 
-  //Add an integer class variable called currentProductionNumber. This will store the next number to be
-  //assigned to serialNumber.
+  //Add an integer class variable called currentProductionNumber. This will store the next number
+  //to be assigned to serialNumber.
   static int currentProductionNumber;
 
-  //Add a constructor that will take in the name of the product and set this to the field variable name
+  //Add a constructor that will take in the name of the product and set this to the field variable
+  //name
   public Product2(String name) {
     this.name = name;
     //Also assign a serial number from the currentProductionNumber. The currentProductionNumber
@@ -48,9 +49,12 @@ public class Product2 {
   Name : Product Name*/
 
   public String toString() {
-    return "Manufacturer  : " + manufacturer + "\n" +
-        "Serial Number : " + serialNumber + "\n" +
-        "Date          : " + manufacturedOn + "\n" +
+    return "Manufacturer  : " + manufacturer + "\n"
+        +
+        "Serial Number : " + serialNumber + "\n"
+        +
+        "Date          : " + manufacturedOn + "\n"
+        +
         "Name          : " + name + "\n";
   }
 }
