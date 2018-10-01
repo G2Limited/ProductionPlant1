@@ -9,7 +9,7 @@ import java.util.Date;
 public interface Item {
 
   //A constant called manufacturer that would be set to “OracleProduction”.
-  String manufacturer = "";
+  String manufacturer = "OraclProduction";
 
   //A method setProductionNumber that would have one integer parameter
   public void setProductionNumber(int productionNumber);

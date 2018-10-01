@@ -1,24 +1,21 @@
-/*Garrett Graber
-09/29/2018
-This file creates a class called Product2 */
-
 import java.util.Date;
 
-public class Product2 {
+public abstract class Product {
 
-  String manufacturer = "OraclProduction";
-  int serialNumber;
-  Date manufacturedOn;
-  String name;
+  //Add the following fields to Product
+  // int serialNumber
+  // String manufacturer
+  // Date manufacuredOn
+  // String name
+  private int serialNumber;
+  private String manufacturer = Item.manufacturer;
+  private Date manufacturedOn;
+  private String name;
 
-  //Add an integer class variable called currentProductionNumber. This will store the next number
-  //to be assigned to serialNumber.
   private static int currentProductionNumber = 1;
 
-  //Add a constructor that will take in the name of the product and set this to the field variable
-  //name
-  public Product2(String name) {
-    this.name = name;
+  public Product(String n) {
+    name = n;
     //Also assign a serial number from the currentProductionNumber. The currentProductionNumber
     //should be incremented in readiness for the next instance
     serialNumber = currentProductionNumber++;
@@ -26,7 +23,6 @@ public class Product2 {
     manufacturedOn = new Date();
   }
 
-  //A method setProductionNumber that would have one integer parameter
   public void setProductionNumber(int productionNumber) {
     serialNumber = productionNumber;
   }
@@ -58,5 +54,3 @@ public class Product2 {
         "Name          : " + name + "\n";
   }
 }
-
-
