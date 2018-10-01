@@ -58,5 +58,3 @@ public class Product2 {
         "Name          : " + name + "\n";
   }
 }
-
-
