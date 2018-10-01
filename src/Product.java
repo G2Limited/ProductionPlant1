@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public abstract class Product {
+public abstract class Product implements Item {
 
   //Add the following fields to Product
   // int serialNumber
@@ -22,15 +22,20 @@ public abstract class Product {
     //Set manufacturedOn as the current date and time
     manufacturedOn = new Date();
   }
-
+  public int getSerialNumber(){
+    return serialNumber;
+  }
+  public Date getManufactureDate(){
+    return getManufactureDate();
+  }
   public void setProductionNumber(int productionNumber) {
     serialNumber = productionNumber;
   }
 
   //A method setName that would have one String parameter
-  public String setName(String na) {
-    name = na;
-    return name;
+  public void setName(String na) {
+    this.name = na;
+
   }
 
   //A method getName that would return a String
