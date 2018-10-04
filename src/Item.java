@@ -17,7 +17,6 @@ public interface Item {
   //A method setName that would have one String parameter
   public void setName(String name);
 
-
   //A method getName that would return a String
   public String getName();
 
