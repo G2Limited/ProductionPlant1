@@ -18,7 +18,6 @@ public enum ItemType {
   AUDIO_MOBILE("AM"),
   VISUAL_MOBILE("VM");
 
-
   final String code;
 
   ItemType(String code) {
