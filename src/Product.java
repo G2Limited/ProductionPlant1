@@ -35,7 +35,6 @@ public abstract class Product implements Item {
   //A method setName that would have one String parameter
   public void setName(String na) {
     this.name = na;
-
   }
 
   //A method getName that would return a String
