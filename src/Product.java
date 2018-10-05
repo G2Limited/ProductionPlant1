@@ -16,7 +16,7 @@ public abstract class Product implements Item {
   private Date manufacturedOn;
   private String name;
 
-  private int currentProductionNumber = 1;
+  private static int currentProductionNumber = 1;
 
   public Product(String n) {
     name = n;
