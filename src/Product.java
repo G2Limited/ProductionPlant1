@@ -1,3 +1,7 @@
+/*Garrett Graber
+09/29/2018
+This file creates a class called Product */
+
 import java.util.Date;
 
 public abstract class Product implements Item {
@@ -12,7 +16,7 @@ public abstract class Product implements Item {
   private Date manufacturedOn;
   private String name;
 
-  private static int currentProductionNumber = 1;
+  private int currentProductionNumber = 1;
 
   public Product(String n) {
     name = n;
@@ -22,12 +26,15 @@ public abstract class Product implements Item {
     //Set manufacturedOn as the current date and time
     manufacturedOn = new Date();
   }
-  public int getSerialNumber(){
+
+  public int getSerialNumber() {
     return serialNumber;
   }
-  public Date getManufactureDate(){
+
+  public Date getManufactureDate() {
     return getManufactureDate();
   }
+
   public void setProductionNumber(int productionNumber) {
     serialNumber = productionNumber;
   }
