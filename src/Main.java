@@ -12,5 +12,10 @@ public class Main {
     System.out.println(w1.toString());
     Widget w2 = new Widget("Widget 2");
     System.out.println(w2.toString());
+
+    for (ItemType it : ItemType.values()) {
+      System.out.println(it + " " + it.code);
+    }
   }
 }
+
