@@ -25,7 +25,7 @@ public class EmployeeInfo {
 
   private void createEmployeeCode(StringBuilder name){
     if (checkName(name)){
-      code = name.charAt(0) + name.substring(name.indexof("") + 1);
+      code = name.charAt(0) + name.substring(name.indexOf(" ") + 1);
     }
     else {
       code = "guest";
@@ -40,6 +40,6 @@ public class EmployeeInfo {
   }
 
   private boolean checkName(StringBuilder name){
-    return (name.indexof("") > 0);
+    return (name.indexOf(" ") > 0);
   }
 }
