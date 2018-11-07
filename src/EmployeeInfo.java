@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class EmployeeInfo{
   private StringBuilder name;
   private String code;
@@ -11,6 +13,10 @@ public class EmployeeInfo{
   public String getCode(){
     return code;
   }
+  
+  public StringBuilder getName(){
+    return name;
+  }
   private void setName(){
     String nameString = inputName();
     name = new StringBuilder(nameString);
@@ -23,6 +29,7 @@ public class EmployeeInfo{
     else {
       code = "guest";
     }
+  }
     private String inputName(){
       Scanner scanner = new Scanner(System.in);
       System.out.println("Please enter your first and last name: ");
@@ -30,12 +37,7 @@ public class EmployeeInfo{
       return nameString;
     }
     private boolean checkName(StringBuilder name){
-      if (name.indexof("") != -1){
-        return true;
-      }
-      else {
-        return false;
-      }
+      return (name.indexof("") > 0);
     }
   }
 }
